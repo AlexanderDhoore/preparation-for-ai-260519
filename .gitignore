@@ -1,0 +1,83 @@
+.venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.DS_Store
+
+# Local credentials for the practice platform.
+.env
+*.env
+participant.env
+participant.kubeconfig
+
+# Generated workshop data and outputs.
+data/raw/
+data/bronze/
+data/silver/
+data/gold/
+data/assets/
+data/public/
+outputs/
+warehouse/
+iceberg_catalog.db
+iceberg_catalog.db-*
+scratch/
+metastore_db/
+derby.log
+
+# Generated lab artifacts are written next to each lab script so participants
+# can find them easily. Keep those outputs out of Git.
+0[1-8]-*/lab*/**/*_report.json
+0[1-8]-*/lab*/**/*_report.md
+0[1-8]-*/lab*/**/*_examples.md
+0[1-8]-*/lab*/**/*_predictions.md
+0[1-8]-*/lab*/**/*_profile.json
+0[1-8]-*/lab*/**/*_accuracy.png
+0[1-8]-*/lab*/**/*_preview.jpg
+0[1-8]-*/lab*/**/*_distribution.png
+0[1-8]-*/lab*/**/*_overview.png
+0[1-8]-*/lab*/**/*_scatter.png
+0[1-8]-*/lab*/**/*_importance.png
+0[1-8]-*/lab*/**/*_matrix.png
+0[1-8]-*/lab*/**/*_comparison.png
+0[1-8]-*/lab*/**/*_counts.png
+0[1-8]-*/lab*/**/*_curve.png
+0[1-8]-*/lab*/**/*_by_engine.png
+0[1-8]-*/lab*/**/*_predictions.png
+0[1-8]-*/lab*/**/*_trajectory.png
+0[1-8]-*/lab*/**/*_trajectories.png
+0[1-8]-*/lab*/**/*_vs_target.png
+0[1-8]-*/lab*/**/*.png
+0[1-8]-*/lab*/**/*.wav
+0[1-8]-*/lab*/**/*_metadata.csv
+0[1-8]-*/lab*/**/*_manifest.csv
+0[1-8]-*/lab*/**/*_manifest_preview.csv
+0[1-8]-*/lab*/**/explore*_manifest.csv
+0[1-8]-*/lab*/**/*_features.csv
+0[1-8]-*/lab*/**/api_sample_image.jpg
+0[1-8]-*/lab*/**/cache/
+0[1-8]-*/lab*/**/model_bundle/
+0[1-8]-*/lab*/**/*.duckdb
+0[1-8]-*/lab*/**/*.parquet
+0[1-8]-*/lab*/**/*.yaml
+0[1-8]-*/lab*/**/banking77_ollama_prompt.txt
+0[1-8]-*/lab*/**/metric_definitions.md
+
+# Tool caches.
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Downloaded public datasets. These are intentionally cached locally but not
+# committed to Git. Chapter 1 keeps its local CSV files inside the chapter
+# folder; teacher prep scripts for later shared-object-storage labs still use
+# the top-level dataset cache.
+01-ai-ready-data/covertype.csv
+01-ai-ready-data/turbofan.csv
+datasets/
+
+# Teacher slide runtime/render outputs. The source decks, media, theme, and
+# generated HTML are committed; screenshot previews and local serve state are not.
+teacher-slides/rendered/
+teacher-slides/.serve-logs/
+teacher-slides/.serve-roots/
