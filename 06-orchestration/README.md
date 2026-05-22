@@ -1,5 +1,7 @@
 # Lab 6: Airflow, Orchestration, And Repeatability
 
+Start with [theory.md](theory.md), then review [slides.pdf](slides.pdf), then continue with the lab below.
+
 In this lab you stop running every step by hand.
 
 You use Airflow as the control layer for platform work. You trigger a workflow,

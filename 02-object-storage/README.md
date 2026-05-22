@@ -1,5 +1,7 @@
 # Lab 2: Object Storage And Data Lake Layers
 
+Start with [theory.md](theory.md), then review [slides.pdf](slides.pdf), then continue with the lab below.
+
 Chapter 1 used local CSV files. In this lab, the source data already lives in
 shared S3-compatible object storage.
 

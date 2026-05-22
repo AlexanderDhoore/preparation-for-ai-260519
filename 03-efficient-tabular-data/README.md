@@ -1,5 +1,7 @@
 # Lab 3: Efficient Tabular Data
 
+Start with [theory.md](theory.md), then review [slides.pdf](slides.pdf), then continue with the lab below.
+
 This lab uses the forest cover type dataset again, but the focus is different
 from Chapter 1.
 

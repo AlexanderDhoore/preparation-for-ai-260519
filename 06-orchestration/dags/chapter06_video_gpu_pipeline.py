@@ -13,9 +13,9 @@ from kubernetes import client, config
 from kubernetes.client import ApiException
 
 DEFAULT_CONFIG = {
-    "namespace": "preparation-for-ai-dev",
+    "namespace": "preparation-for-ai-XX",
     "shared_bucket": "preparation-for-ai-shared",
-    "output_bucket": "preparation-for-ai-dev",
+    "output_bucket": "preparation-for-ai-XX",
     "manifest_key": "datasets/chapter06/video-actions/manifest.csv",
     "epochs": 5,
     "batch_size": 4,

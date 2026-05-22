@@ -1,5 +1,7 @@
 # Lab 1: AI-Ready Data Starts Locally
 
+Start with [theory.md](theory.md), then review [slides.pdf](slides.pdf), then continue with the lab below.
+
 This chapter starts with local files and Python. That is intentional. Before a
 team builds a data lake, it should know what kind of data it has, what the data
 means, and what can go wrong before a model ever starts training.

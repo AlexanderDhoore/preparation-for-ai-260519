@@ -1,5 +1,7 @@
 # Lab 8: Practical MLOps And Reproducibility
 
+Start with [theory.md](theory.md), then review [slides.pdf](slides.pdf), then continue with the lab below.
+
 In this lab you train an image classifier, log the run to MLflow, and serve the
 trained model through a small FastAPI application.
 

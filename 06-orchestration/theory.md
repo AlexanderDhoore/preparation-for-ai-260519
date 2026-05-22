@@ -218,10 +218,10 @@ defaults:
 
 ```python
 DEFAULT_CONFIG = {
-    "participant": "preparation-for-ai-dev",
-    "namespace": "preparation-for-ai-dev",
+    "participant": "preparation-for-ai-XX",
+    "namespace": "preparation-for-ai-XX",
     "shared_bucket": "preparation-for-ai-shared",
-    "output_bucket": "preparation-for-ai-dev",
+    "output_bucket": "preparation-for-ai-XX",
     "input_month": "2024-01",
     "minimum_rows": 100000,
 }

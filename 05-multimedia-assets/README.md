@@ -1,5 +1,7 @@
 # Lab 5: Multimedia Assets For Machine Learning
 
+Start with [theory.md](theory.md), then review [slides.pdf](slides.pdf), then continue with the lab below.
+
 In this lab you train neural networks from manifest-backed datasets in object
 storage.
 

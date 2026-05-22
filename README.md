@@ -1,5 +1,7 @@
 # Preparation For AI: From Raw Data To Reliable Models
 
+![Preparation For AI course preview](assets/course-preview.png)
+
 Welcome to the Preparation For AI course.
 
 These labs take you from first contact with raw data to a small data platform
@@ -7,9 +9,10 @@ that can support reliable analytics and machine learning. You will work with
 real public datasets, Python scripts, object storage, prepared data layers,
 query tools, orchestration, dashboards, and practical MLOps evidence.
 
-Each chapter contains two things:
+Each chapter contains three things:
 
 - `theory.md` with the written course theory
+- `slides.pdf` with the chapter slides
 - `README.md` with the hands-on lab instructions
 
 Start with the chapter README, run the commands, inspect the code, fix the

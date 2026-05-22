@@ -1,5 +1,7 @@
 # Lab 7: Business Intelligence
 
+Start with [theory.md](theory.md), then review [slides.pdf](slides.pdf), then continue with the lab below.
+
 In this lab you use Apache Superset to explore a prepared New York taxi trip
 table.
 

@@ -1,5 +1,7 @@
 # Lab 4: Open Table Formats
 
+Start with [theory.md](theory.md), then review [slides.pdf](slides.pdf), then continue with the lab below.
+
 In Chapter 3 you worked with Parquet files directly. In this lab you add an
 open table format on top.
 
